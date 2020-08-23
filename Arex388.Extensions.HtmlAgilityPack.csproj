@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>HtmlAgilityPack extensions for HTML minification.</Description>
+    <PackageProjectUrl>https://github.com/arex388/Arex388.Extensions.HtmlAgilityPack</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/arex388/Arex388.Extensions.HtmlAgilityPack</RepositoryUrl>
+    <PackageTags>arex388 htmlagilitypack html minification</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.24" />
+  </ItemGroup>
+
+</Project>
