@@ -7,7 +7,7 @@
     <RepositoryUrl>https://github.com/arex388/Arex388.Extensions.HtmlAgilityPack</RepositoryUrl>
     <PackageTags>arex388 htmlagilitypack html minification</PackageTags>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -19,7 +19,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="HtmlAgilityPack" Version="1.11.34" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.36" />
   </ItemGroup>
 
 </Project>
